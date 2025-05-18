@@ -9,7 +9,7 @@ class FlagGridHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF7F8FA),
-      appBar: AppBar(title: const Text('Perfect Responsive Flag Grid')),
+      appBar: AppBar(title: const Text('Responsive Flag Grid')),
       body: const Padding(
         padding: EdgeInsets.all(12.0),
         child: ResponsiveGrid(),
