@@ -19,7 +19,7 @@ class ResponsiveFlagGridApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Perfect Responsive Flag Grid',
+      title: 'Responsive Flag Grid',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const FlagGridHomePage(),
